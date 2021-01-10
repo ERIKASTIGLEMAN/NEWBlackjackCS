@@ -59,4 +59,36 @@ D – Data Structure
 A – Algorithm
 
 1. Create Cards
-   a.
+   a. List of ranks
+   b. List of suits
+   c. Merge these two list to create Newcards
+   d. Add new cards a deck
+2. Assign Cards a value
+3. Create 2 hands
+   a. 1 – player
+   b. 1 – dealer
+4. Deal cards into both hands
+   a. Player cards shown
+   b. Dealers cards hidden
+5. Depending on card total
+   a. Player will choose to stand
+   i. Revealing dealer card
+   b. Player will choose to hit
+   i. Adding and showing new card to player’s hand
+6. Player will bust if card value > 21 and BUSTED will display
+7. Player will choose to HIT or STAND if card value is < 21
+8. Player will win if card value = 21 and dealer does not tie, and WINNER will display
+   c. Dealer will choose to HIT
+   i. Adding and showing new card to dealers hand
+9. If total card value is < 17
+   a. Dealer will bust if card value > 21 and BUSTED will display
+   d. Dealer will choose to STAND
+   i. If total card value is > 17 Dealer will STAND
+10. Dealer will win if card value >17 & <= 21 and card value exceeds players card value
+11. dealer wins all ties
+12. WINNER will display
+    e. At end of game - display option to play again
+    i. Shuffle deck
+    ii. Deal two new hands
+
+C – Code
